@@ -1,6 +1,6 @@
-# PyTimer
+# PyTimer2
 
-PyTimer is a simple Python package that provides countdown timer functionality. It is designed to be lightweight and easy to use, making it ideal for timing events, tracking intervals, and managing delays in various Python applications.
+PyTimer2 is a simple Python package that provides countdown timer functionality. It is designed to be lightweight and easy to use, making it ideal for timing events, tracking intervals, and managing delays in various Python applications.
 
 ## Features
 
@@ -9,9 +9,20 @@ PyTimer is a simple Python package that provides countdown timer functionality. 
 - **Real-Time Monitoring:** Check the remaining time at any point using the `get_countdown()` method.
 - **Customizable Duration:** Set the countdown to any number of seconds as needed.
 
-## Installation
+## Installation & Usage
 
 You can install PyTimer directly from GitHub or from PyPI once published:
 
 ```bash
-pip install pytimer
+# Install pytimer2
+pip install pytimer2
+# Import pytimer2
+from pytimer2.timer import Timer
+timer = Timer()
+# Starting the countdown with a duration of 500 seconds
+timer.start_countdown(duration=500)
+# you can access what is the current countdown value 
+print(timer.get_countdown())
+
+
+
