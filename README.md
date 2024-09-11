@@ -13,7 +13,7 @@
 
 ## Installation
 
-You can install PyTimer directly from GitHub or from PyPI once published:
+You can install PyTimer directly from GitHub or from PyPI:
 
 ```bash
 # Install pytimer2
