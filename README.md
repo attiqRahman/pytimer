@@ -2,6 +2,7 @@
 
 `PyTimer2` is a simple Python countdown timer package that offers start, pause, resume, and stop functionalities. This tool is perfect for managing timed tasks, creating simple scheduling systems, or integrating into larger applications where precise countdown control is required.
 
+[![Downloads](https://static.pepy.tech/badge/pytimer2)](https://pepy.tech/project/pytimer2)  
 ## Features
 
 - **Start Countdown:** Initiate a countdown for a specified duration.
